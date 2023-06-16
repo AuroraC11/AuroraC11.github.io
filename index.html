@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Introduction of French Pastries</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy
+  * Updated: Mar 10 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <html>
+<head>
+  <style>
+    body {
+      background-color: #FFFAFA;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>French Desserts<span>.</span></h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#content">Content</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+ <section id="hero" class="hero d-flex align-items-center section-bg">
+  <div class="container">
+    <div class="row justify-content-between gy-5">
+      <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
+        <h2 data-aos="fade-up" id="typing-text"></h2>
+        <p data-aos="fade-up" data-aos-delay="100">Here are 3 different french desserts you can learn, each of them has their unique, marvellous flavor. Hope you will LOVE them!</p>
+        <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+          <a href="https://youtu.be/iucXIeVT6sw"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+        </div>
+      </div>
+      <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
+        <img src="https://cdn.theculturetrip.com/wp-content/uploads/2016/09/16197107235_d72175f423_b-1024x683.jpg" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+      </div>
+    </div>
+  </div>
+</section><!-- End Hero Section -->
+
+<script>
+  const originalText = "Let's know the Wonderful French Desserts!"; 
+  const speed = 100; 
+  let i = 0;
+  let currentText = '';
+
+  const typingEffect = () => {
+    currentText += originalText.charAt(i);
+    document.getElementById("typing-text").innerHTML = currentText;
+    i++;
+    if (i === originalText.length) {
+      setTimeout(deleteEffect, 1000);
+      return;
+    }
+    setTimeout(typingEffect, speed);
+  };
+
+  const deleteEffect = () => {
+    currentText = currentText.slice(0, -1);
+    document.getElementById("typing-text").innerHTML = currentText;
+    if (currentText === '') {
+      i = 0;
+      setTimeout(typingEffect, 500);
+      return;
+    }
+    setTimeout(deleteEffect, speed);
+  };
+
+  typingEffect();
+</script>
+<!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>Learn More <span>About Us</span></p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-7 position-relative about-img" style="background-image: url(https://d1v9pyzt136u2g.cloudfront.net/blog/wp-content/uploads/2022/10/04152918/777313fc55bb95d999b1b598b1274fbb.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+            </div>
+          </div>
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+               We are students who loves french desserts. As a result, we decided to create a web contained some introduction to the desserts. Here you can learn:
+              </p>
+              <ul>
+                <li><i class="bi bi-check2-all"></i> The origin of the desserts.</li>
+                <li><i class="bi bi-check2-all"></i> Ingredients that the desserts made with.</li>
+                <li><i class="bi bi-check2-all"></i> How they taste like.</li>
+              </ul>
+              <p>
+                After learning the basic knowledge of some classic, iconic french desserts, do you want to give it a try or want to know more about them? If you want to know more about french desserts, please contact us!
+                And below is our video about another project:
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="C:\Users\user\Pictures\Screenshots\螢幕擷取畫面 2023-06-08 103356.png" class="img-fluid" alt="">
+                <a href="https://youtu.be/IZl0ZSjT-kc" class="glightbox play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why  Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>The Uniqueness of French Desserts</h3>
+              <p>
+                French desserts stand out for their exquisite appearance, diverse textures and flavors, as well as the craftsmanship and traditions that have been passed down through generations.
+              </p>
+              <div class="text-center">
+                <a href="https://www.biosmonthly.com/article/7740" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+          <div class="col-lg-8 d-flex align-items-center">
+            <div class="row gy-4">
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-magic"></i>
+                  <h4>Exquisite appearance</h4>
+                  <p>French desserts are known for their meticulously designed shapes and decorations, providing visual enjoyment.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-stars"></i>
+                  <h4>Diverse textures & rich flavors</h4>
+                  <p>French desserts offer a variety of textures, they can be crisp, soft, or smooth, always accompanied by a wide range of flavors. They provide a rich, diverse gustatory experience.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+              <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                  <i class="bi bi-gem"></i>
+                  <h4>Fine craftsmanship & unique tradition</h4>
+                  <p>French desserts chefs demonstrate skillful techniques, ensuring top-quality pastries while honoring the rich heritage of French pastry making.</p>
+                </div>
+              </div><!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    
+    </section><!-- End Stats Counter Section -->
+
+   
+
+    
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Events</h2>
+          <p>Share <span>some festivals</span> with you</p>
+        </div>
+
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(https://agencethedesk.com/admin/wp-content/uploads/2018/11/capture-decran-2018-11-16-a-17.58.50.png)">
+              <h3>Le Salon de la Pâtisserie </h3>
+              <div class="price align-self-start">Paris</div>
+              <p class="description">
+                It's an annual event in Paris for pastry enthusiasts. It showcases French pastries and offers activities like masterclasses and competitions. It's a must-visit for pastry lovers in Paris.
+              </p>
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(https://met.grandlyon.com/app/themes/met/api/gen.php?src=https://met.grandlyon.com/files/2019/11/terreaux-1.jpg&w=1024&h=768)">
+              <h3>Fête des Lumières</h3>
+              <div class="price align-self-start">Lyon</div>
+              <p class="description">
+               Helded every December 8th. In addition to light shows and fireworks, people can also taste a variety of traditional French desserts, such as Mille-feuille and Profiteroles.
+            </div><!-- End Event item -->
+
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(https://cdn-s-www.leprogres.fr/images/9562EA3C-0A7F-46E7-AFFB-58B17AA440B9/NW_raw/les-galettes-sont-cuites-dans-les-deux-fours-du-village-photo-d-archives-progres-patrick-delas-1556818105.jpg)">
+              <h3>La Fête de la Galette</h3>
+              <div class="price align-self-start">France</div>
+              <p class="description">
+              It is an annual celebration in France that celebrates the traditional pastry called "galette." It brings communities together to enjoy this delicious treat and embrace its cultural significance.
+              </p>
+            </div><!-- End Event item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Content Section ======= -->
+    <section id="content" class="content section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Desserts</h2>
+          <p>The 3  <span>Iconic</span> Desserts</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="https://cdn.britannica.com/06/237806-050-1259D5A7/Colorful-stack-of-macaron-pastries-on-a-table.jpg" class="img-fluid" alt="">
+               
+              </div> 
+              <div class="member-info">
+                <h4>Macarons</h4>
+                <span>Originated in Paris, France.</span>
+                <p>Made with egg whites, powdered sugar, almond flour, and food coloring, they have a crispy exterior, soft texture, and come in various colors. The flavor is a sweet combination of almond and sugar. They are often filled with cream or jam and enjoyed with coffee or tea. </p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="https://www.homecookingadventure.com/wp-content/uploads/2022/01/caneles_de_bordeaux_main.jpg" class="img-fluid" alt="">
+                
+              </div>
+              <div class="member-info">
+                <h4>Canelé</h4>
+                <span>originated in Bordeaux, France.</span>
+                <p>It is made with a custard-like batter of flour, sugar, milk, and egg yolks, infused with vanilla and rum. Canelé has a caramelized and crispy exterior, while the inside is soft, custardy, and filled with rich vanilla flavors.</p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="chef-member">
+              <div class="member-img">
+                <img src="https://www.daskochrezept.de/sites/daskochrezept.de/files/styles/full_width_tablet_4_3/public/2021-07/madeleines_2.jpg?h=4521fff0&itok=vXqUK-v4" class="img-fluid" alt="">
+                
+              </div>
+              <div class="member-info">
+                <h4>Madeleine</h4>
+                <span>originated in Commercy, France.</span>
+                <p>It is made with flour, sugar, eggs, and butter. The distinctive shell-shaped cake has a soft and fluffy texture and is infused with a rich buttery flavor. Often enhanced with lemon zest or vanilla, Madeleines offer a delicate citrus or aromatic taste. </p>
+              </div>
+            </div>
+          </div><!-- End Chefs Member -->
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>gallery</h2>
+          <p>Check <span>Our Gallery</span></p>
+        </div>
+
+        <div class="gallery-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="C:\Users\user\Downloads\gallery-1.JPG"><img src="C:\Users\user\Downloads\gallery-1.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="C:\Users\user\Downloads\gallery-2.PNG"><img src="C:\Users\user\Downloads\gallery-2.PNG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="C:\Users\user\Downloads\gallery-3.JPG"><img src="C:\Users\user\Downloads\gallery-3.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="C:\Users\user\Downloads\gallery-4.JPG"><img src="C:\Users\user\Downloads\gallery-4.JPG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="C:\Users\user\Downloads\gallery-5.PNG"><img src="C:\Users\user\Downloads\gallery-5.PNG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="C:\Users\user\Downloads\gallery-6.PNG"><img src="C:\Users\user\Downloads\gallery-6.PNG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="C:\Users\user\Downloads\gallery-7.PNG"><img src="C:\Users\user\Downloads\gallery-7.PNG" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="C:\Users\user\Downloads\gallery-8.PNG"><img src="C:\Users\user\Downloads\gallery-8.PNG" class="img-fluid" alt=""></a></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Need Help? <span>Contact Us</span></p>
+        </div>
+
+        <div class="mb-3">
+          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.9179510141016!2d121.19195847409053!3d24.968906040911932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823c1fa450df9%3A0xb994ec7040f4558d!2z5ZyL56uL5Lit5aSu5aSn5a245paH5a245LqM6aSo!5e0!3m2!1szh-TW!2stw!4v1686765934301!5m2!1szh-TW!2stw" frameborder="0" allowfullscreen></iframe>
+        </div><!-- End Google Maps -->
+
+        <div class="row gy-4">
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-map flex-shrink-0"></i>
+              <div>
+                <h3>Our Address</h3>
+                <p>Literature Hall 2, No. 300, Zhongda Road, Zhongli District,  Taoyuan City 320</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center">
+              <i class="icon bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p>ipla110@g.ncu.edu.tw</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p>03-4227151</p>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-md-6">
+            <div class="info-item  d-flex align-items-center">
+              <i class="icon bi bi-share flex-shrink-0"></i>
+              <div>
+                <h3>Available Time</h3>
+                <div><strong>Mon-Fri:</strong> 5PM - 11PM;
+                  <strong>Weekends:</strong> 1PM - 10PM
+                </div>
+              </div>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfxh37W402ac-1c2e8-HfFsIvo8QcBZu_RAEOFhcxnOBfYsMA/viewform?embedded=true" width="900" height="400" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
+
+        </form><!--End Contact Form -->
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              Literature Hall 2, No. 300, Zhongda Road<br>
+              Zhongli District,  Taoyuan City 320<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <strong>TEL:</strong> 03-4227151<br>
+              <strong>Email:</strong> ipla110@g.ncu.edu.tw<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Available Time</h4>
+            <p>
+              <strong>Mon-Sat: 5PM</strong> - 11PM<br>
+              <strong>Weekends: 1PM</strong>  - 10PM<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="http://ipla.ncu.edu.tw/" class="hand-index-thumb"><i class="bi bi-hand-index-thumb"></i></a>
+           <a href="https://www.facebook.com/LiberalArtsNCU" class="facebook"><i class="bi bi-facebook"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+   <!-- <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Yummy</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">-->
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
+       <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>-->
+      </div> 
+    </div>
+
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
